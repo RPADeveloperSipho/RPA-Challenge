@@ -488,13 +488,13 @@
                           <av:Size x:Key="ShapeSize">200,51</av:Size>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Rpa Challenge" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e95c5215-d3f6-4512-900f-f1afd97c46ca" Version="V1">
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Rpa Challenge" sap:VirtualizedContainerService.HintSize="434,541" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="e95c5215-d3f6-4512-900f-f1afd97c46ca" Version="V1">
                         <uix:NApplicationCard.Body>
                           <ActivityAction x:TypeArguments="x:Object">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,273" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,325" sap2010:WorkflowViewState.IdRef="Sequence_5">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="ui:Image" Name="ImageName" />
                               </Sequence.Variables>
@@ -503,7 +503,7 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <uix:NTakeScreenshot DisplayName="Take Screenshot 'Your success'" FileName="C:\Users\sipho\Documents\UIPATH\Screenshots\screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="334,181" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" OutImage="[ImageName]" SaveScreenshotTo="Image" ScopeIdentifier="e95c5215-d3f6-4512-900f-f1afd97c46ca" Version="V1">
+                              <uix:NTakeScreenshot DisplayName="Take Screenshot 'Your success'" FileName="C:\Users\sipho\Documents\UIPATH\Screenshots\screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="334,231" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" OutImage="[ImageName]" ScopeIdentifier="e95c5215-d3f6-4512-900f-f1afd97c46ca" Version="V1">
                                 <uix:NTakeScreenshot.Target>
                                   <uix:TargetAnchorable BrowserURL="https://www.rpachallenge.com/" DesignTimeRectangle="357, 310, 877, 30" ElementType="Text" FriendlyName="'Your success'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;app-rpa1&amp;gt;div&amp;gt;div&amp;gt;div' idx='6' isleaf='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='Your success rate is 100% ( 70 out of 70 fields) in 85663 milliseconds' isleaf='1' tag='DIV' check:text='Your success rate is 100% ( 70 out of 70 fields) in 85663 milliseconds' /&gt;" Guid="d0cbe769-49cf-4a45-896c-eff2c519fcf2" ImageBase64="" InformativeScreenshot="150520666c24a98d6d7554b402416c79.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, FuzzySelector" />
                                 </uix:NTakeScreenshot.Target>
